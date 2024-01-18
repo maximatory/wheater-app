@@ -1,0 +1,84 @@
+@import url(../../index.css);
+
+.main {
+    max-width: 630px;
+    min-width: 360px;
+    width: 100%;
+    height: 550px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    padding: 32px 32px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--bg-details);
+}
+
+.main__up {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.location__city {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.location__country {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main__down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__temperature {
+    font-size: 96px;
+    line-height: 100%;
+    font-weight: 800;
+}
+
+.main__icon {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__icon img {
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .main {
+        padding: 20px 20px 0;
+        height: 300px;
+    }
+
+    .location__city {
+        font-size: 16px;
+    }
+
+    .location__country {
+        font-size: 12px;
+    }
+
+    .main__temperature {
+        font-size: 48px;
+    }
+
+    .main__icon {
+        width: 160px;
+        height: 160px;
+    }
+}

@@ -1,0 +1,14 @@
+.search {
+    width: 38px;
+    height: 38px;
+    border: none;
+    background: none;
+    background-image: url(../../../public/images/search.svg);
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 19px);
+    cursor: pointer;
+}
+

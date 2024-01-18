@@ -1,0 +1,36 @@
+@import url(../../index.css);
+
+.back {
+    border: 1px solid white;
+    background: none;
+    color: var(--color-text-main);
+    display: block;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+    line-height: 100%;
+    padding: 0px 40px 0px 10px;
+    border-radius: 8px;
+    margin: 2rem auto;
+}
+
+.back:hover {
+    color: var(--color-hover);
+    border: 1px solid var(--color-hover);
+    transition: all 0.2s ease-in-out;
+}
+
+.back::after {
+    display: block;
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-image: url(../../../public/images/back.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 1px;
+    right: 3px;
+}

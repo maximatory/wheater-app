@@ -1,0 +1,60 @@
+@import url(../../index.css);
+
+.details {
+    max-width: 630px;
+    min-width: 360px;
+    width: 100%;
+    background-color: var(--bg-details);
+    border-radius: 8px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.details__title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7F7F98;
+}
+
+.details__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #2b2b3b;
+    overflow: hidden;
+}
+
+.details__property {
+    color: var(--color-text-second);
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.details__property img {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.details__value {
+    font-size: 20px;
+    color: #FAFAFA;
+    padding-left: 20px;
+}
+
+@media(max-width: 768px){
+    .details__title {
+        font-size: 14px;
+    }
+    .details__value {
+        font-size: 16px;
+    }
+    .details__property img {
+        width: 24px;
+        height: 24px;
+    }
+}

@@ -1,0 +1,23 @@
+@import url(../../index.css);
+
+.wrapper {
+    position: relative;
+    flex-grow: 1;
+}
+
+.input {
+    width: 100%;
+    width: -webkit-fill-available;
+    background-color: var(--bg-color-second);
+    border: none;
+    padding: 17px 63px 17px 20px;
+    border-radius: 8px;
+    color:var(--color-text-marker);
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+}
+
+.input::placeholder {
+    color: var(--color-text-second)
+}

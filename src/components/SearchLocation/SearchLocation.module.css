@@ -1,0 +1,36 @@
+@import url(../../index.css);
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.title span {
+    color:var(--color-text-marker)
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-text-second);
+    margin-bottom: 56px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.search {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
